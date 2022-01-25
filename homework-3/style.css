@@ -1,0 +1,156 @@
+* {
+  /* для всех h2 заменить на одну строку font size-36 */
+  box-sizing: border-box;
+  margin: 0;
+  /* border: 1px solid red; */
+  font-family: "Raleway", sans-serif;
+}
+.processPanel {
+  padding: 102px 0 48px;
+  background-color: #ffffff;
+}
+.title {
+  margin-bottom: 66px;
+  text-align: center;
+}
+.itemPP {
+  font-size: 36px;
+}
+.line {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: #ff8b38;
+}
+.columns {
+  width: 100%;
+  padding: 0 auto;
+}
+.column {
+  width: 30%;
+  display: inline-block;
+  /* margin: 0 auto; */
+}
+
+.m-rl {
+  margin: 0 33px;
+}
+.image {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #ff8b38;
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 27px;
+}
+.columnTitle {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.lamp {
+  background-image: url(./images/lamp.png);
+}
+.keyboard {
+  background-image: url(./images/keyboard.png);
+}
+.thunder {
+  background-image: url(./images/thunder.png);
+}
+.textPP {
+  font-size: 14px;
+  text-align: center;
+  color: #86878b;
+}
+.price {
+  padding-top: 102px;
+  padding-bottom: 111px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.priceTitle {
+  font-size: 36px;
+}
+.priceLine {
+  width: 64px;
+  height: 2px;
+  background-color: #ff8b38;
+  margin: 22px auto;
+}
+.priceText {
+  font-size: 14px;
+  color: #86878b;
+}
+.tariff {
+  display: inline-block;
+  list-style-type: none;
+  width: 343px;
+  height: 59px;
+}
+.pro {
+  padding-top: 81px;
+}
+.black {
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #333333;
+}
+.one {
+  height: 59px;
+  margin-bottom: 1px;
+}
+.two {
+  height: 100px;
+  margin-bottom: 1px;
+  font-size: 32px;
+}
+.three {
+  height: 50px;
+  font-size: 14px;
+  font-style: italic;
+  border-bottom: 5px solid #ff8b38;
+}
+.textUp {
+  height: 40px;
+  font-size: 14px;
+  color: #86878b;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+
+/* следующий блок Custom */
+.custom {
+  padding-top: 54px;
+  height: 297px;
+  text-align: center;
+  background-image: url(./images/bilding.png);
+  background: linear-gradient(rgba(51, 51, 51, 0.58), rgba(51, 51, 51, 0.58)),
+    url(./images/bilding.png);
+  background-repeat: round;
+  color: #ffffff;
+}
+.customTitle {
+  font-size: 36px;
+}
+.customLine {
+  background-color: #ffffff;
+  margin: 22px auto;
+  width: 64px;
+  height: 2px;
+}
+.customText {
+  font-size: 14px;
+}
+.customButtom {
+  width: 134px;
+  height: 42px;
+  margin: 38px auto;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+.buttomText {
+  font-size: 15px;
+  margin-top: 12px;
+}
