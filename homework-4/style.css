@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* border: 1px solid red; */
+  font-family: "Raleway", sans-serif;
+}
+.processPanel {
+  width: 90%;
+  max-width: 1112px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.title {
+  margin: 102px auto 66px;
+  text-align: center;
+}
+.itemPP {
+  font-size: 36px;
+}
+.line {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: #ff8b38;
+}
+.column {
+  width: 31%;
+  max-width: 350px;
+  display: inline-block;
+  margin: 0 auto 111px;
+}
+.m-rl {
+  margin: 0 33px;
+}
+.image {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 27px;
+}
+.columnTitle {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.lamp {
+  background-image: url(./images/lamp.png);
+}
+.keyboard {
+  background-image: url(./images/keyboard.png);
+}
+.thunder {
+  background-image: url(./images/thunder.png);
+}
+.textPP {
+  font-size: 14px;
+  text-align: center;
+  color: #86878b;
+}
+.price {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-top: 102px;
+  padding-bottom: 111px;
+}
+.priceWrapper {
+  width: 90%;
+  max-width: 1112px;
+  margin: 0 auto;
+}
+.priceTitle {
+  font-size: 36px;
+}
+.priceLine {
+  width: 64px;
+  height: 2px;
+  background-color: #ff8b38;
+  margin: 22px auto;
+}
+.priceText {
+  font-size: 14px;
+  color: #86878b;
+}
+.tariffsWrapper {
+  margin: 81px auto 0px;
+  width: 90%;
+  max-width: 1112px;
+}
+.tariff {
+  display: inline-block;
+  list-style-type: none;
+  width: 30%;
+  padding: 0px; /*если его не указать ,что появляется отступы в 40px по горизонтале*/
+}
+.pro {
+  margin: 0 40px;
+}
+.black {
+  padding-top: 17px;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #333333;
+}
+.one {
+  height: 59px;
+  margin-bottom: 1px;
+}
+.two {
+  padding: 38px 0px 38px;
+  /* height: 100px; */
+  margin-bottom: 1px;
+  font-size: 32px;
+}
+.three {
+  padding-top: 13px;
+  height: 50px;
+  font-size: 14px;
+  font-style: italic;
+  border-bottom: 5px solid #ff8b38;
+}
+.orange {
+  background-color: #ff8b38;
+  height: 40px;
+  padding: 8px 0px;
+  font-size: 14px;
+}
+.textUp {
+  padding-top: 8px;
+  height: 40px;
+  font-size: 14px;
+  color: #86878b;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+.custom {
+  padding: 54px 0px;
+  text-align: center;
+  background-image: url(./images/bilding.png);
+  background: linear-gradient(rgba(51, 51, 51, 0.58), rgba(51, 51, 51, 0.58)),
+    url(./images/bilding.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.customTitle {
+  font-size: 36px;
+}
+.customLine {
+  background-color: #ffffff;
+  margin: 22px auto;
+  width: 64px;
+  height: 2px;
+}
+.customText {
+  font-size: 14px;
+  padding-bottom: 38px;
+}
+.customButtom {
+  width: 134px;
+  height: 42px;
+  margin: 0 auto;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+.buttomText {
+  font-size: 15px;
+  margin-top: 12px;
+}
