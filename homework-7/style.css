@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* border: 1px solid red; */
+}
+#head {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  padding-top: 18px;
+}
+.wrapperHeader {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1150px;
+  display: flex;
+  justify-content: space-between;
+}
+.imgHeader {
+  width: 5rem;
+  height: 2rem;
+  background-image: url(./images/logohead.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+nav {
+  width: 35%;
+  max-width: 400px;
+}
+.menu {
+  list-style: none;
+  padding: 0px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item {
+  text-decoration: none;
+  color: white;
+}
+.menu-item:hover {
+  cursor: pointer;
+  color: #ff8b38;
+}
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-image: url(./images/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 70px;
+}
+.mainPage {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  justify-content: space-between;
+}
+.logoMain {
+  width: 40%;
+  color: white;
+}
+.logoIMG {
+  width: 175px;
+  height: 60px;
+  background-image: url(./images/logomain.png);
+  background-repeat: no-repeat;
+}
+.mainHeading {
+  margin-top: 30px;
+}
+.mainLine {
+  margin: 32px 0;
+  background-color: white;
+  width: 100px;
+  height: 2px;
+}
+
+.mainButton {
+  margin-top: 42px;
+  padding: 12px 30px;
+  width: 134px;
+  height: 42px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.formMainPage {
+  width: 35%;
+  height: 360px;
+  background-color: white;
+  border: 1px solid white;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+}
+#features {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 131px 0px;
+}
+.wrapperFeat {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tabs {
+  width: 20%;
+}
+.tab-first,
+.tab-second,
+.tab-third {
+  width: 112px;
+  height: 112px;
+  padding: 46px 35px;
+  margin-bottom: 1px;
+  font-size: 15px;
+  color: white;
+}
+.tab-first {
+  background-color: #ff9b51;
+}
+.tab-second,
+.tab-third {
+  background-color: black;
+}
+.wrapperFeat-text {
+  width: 45%;
+}
+.feat-text {
+  margin-top: 42px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+}
+.feat-button {
+  width: 134px;
+  margin-top: 42px;
+  padding: 12px 30px;
+  background-color: #fa8f21;
+  border-radius: 5px;
+}
+.feat-img {
+  width: 30%;
+  height: 253px;
+  background-image: url(./images/city.png);
+  background-repeat: no-repeat;
+}
+
+.media {
+  font-family: "Raleway";
+  background-color: #ffffff;
+  width: 90%;
+  padding: 18px 0px;
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mediaText {
+  width: 35%;
+  max-width: 390px;
+}
+.mediaHead {
+  font-size: 20px;
+  line-height: 23px;
+}
+.icons {
+  width: 35%;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.facebook {
+  background-image: url(./images/facebook.png);
+}
+.google {
+  background-image: url(./images/google.png);
+}
+.twitter {
+  background-image: url(./images/twitter.png);
+}
+.instagram {
+  background-image: url(./images/inst.png);
+}
+.linked {
+  background-image: url(./images/linked.png);
+}
+.pinterest {
+  background-image: url(./images/pin.png);
+}
+#panel {
+  font-family: "Raleway";
+  width: 90%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 104px 0px 111px;
+  text-align: center;
+}
+.panelText {
+  color: #86878b;
+  font-size: 14px;
+  line-height: 20px;
+}
+.line {
+  margin: 22px auto;
+  width: 64px;
+  height: 2px;
+  background-color: #ff8b38;
+}
+.wrapperPanelColumns {
+  margin-top: 66px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.columnLamp,
+.columnKeyboard,
+.columnThunder {
+  width: 30%;
+}
+.shape {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #ff8b38;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 27px;
+}
+.headPanel {
+  padding-bottom: 16px;
+}
+.lamp {
+  background-image: url(./images/lamp.png);
+}
+.keyboard {
+  background-image: url(./images/keyboard.png);
+}
+.thunder {
+  background-image: url(./images/thunder.png);
+}
+#pricing {
+  font-family: "Raleway";
+  background-color: #f5f5f5;
+  padding: 102px 0 111px;
+  text-align: center;
+}
+.wrapperPriceText,
+.wrapperPriceColumns {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.wrapperPriceColumns {
+  margin-top: 81px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.basic,
+.pro,
+.enterprice {
+  list-style: none;
+  padding: 0px;
+  width: 30%;
+  line-height: 24px;
+}
+.black {
+  background-color: #333333;
+  color: #f5f5f5;
+}
+.tariff,
+.coast {
+  margin-bottom: 1px;
+}
+.tariff {
+  font-size: 20px;
+  padding: 18px 0px;
+}
+.coast {
+  padding: 38px 0px;
+  font-size: 32px;
+  line-height: 24px;
+}
+.period {
+  padding: 13px 0px;
+  border-bottom: 5px solid #ff8b38;
+}
+.orange {
+  padding: 8px 0px;
+  background-color: #ff8b38;
+}
+.white {
+  padding: 8px 0px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #86878b;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+  background-color: white;
+}
+#feedbacks {
+  font-family: "Raleway";
+  width: 90%;
+  max-width: 1150px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 73px 0 102px;
+  text-align: center;
+}
+.wrapperFeedbacks {
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-around;
+}
+.feedback {
+  width: 25%;
+}
+
+.jeremy,
+.john,
+.susan {
+  margin-top: 28px;
+  display: flex;
+}
+.textFeedback {
+  position: relative;
+  color: #86878b;
+  background-color: #f5f5f5;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 25px 12px 18px;
+}
+.textFeedback::before {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  color: #f5f5f5;
+  bottom: -20px;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  border-top: 20px solid;
+}
+.feedbackImg {
+  width: 70px;
+  height: 70px;
+  margin-right: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/avatar.png);
+}
+.custom {
+  font-family: "Raleway";
+  width: 100%;
+  padding: 54px 0;
+  margin: 0 auto;
+  background-image: url(./images/bilding.png);
+  background: linear-gradient(rgba(51, 51, 51, 0.58), rgba(51, 51, 51, 0.58)),
+    url("./images/bilding.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.lineWhite {
+  margin: 22px auto;
+  width: 64px;
+  height: 2px;
+  background-color: white;
+}
+.customButtom {
+  width: 134px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 38px auto 0px;
+}
+.textButtom {
+  padding: 12px 30px;
+}
+#footerSocial {
+  width: 100%;
+  background-color: black;
+  padding: 28px 0px;
+}
+.iconsFooter {
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footerText {
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 22px;
+  text-align: center;
+}
+@media (max-width: 840px) {
+  #head {
+    padding-top: 5px;
+  }
+  .wrapperHeader {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgHeader {
+    padding: 1rem 0px;
+  }
+  nav {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 5px;
+  }
+  .icons {
+    width: 50%;
+  }
+  .wrapperFeat {
+    flex-wrap: wrap;
+  }
+  .tabs {
+    width: 30%;
+  }
+  .wrapperFeat-text {
+    width: 70%;
+  }
+  .feat-img {
+    width: 100%;
+    margin-top: 2rem;
+    background-position: center;
+    background-repeat: space;
+  }
+  .wrapperFeedbacks {
+    flex-direction: column;
+  }
+  .feedback {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .textFeedback {
+    width: 50%;
+  }
+  .jeremy,
+  .john,
+  .susan {
+    width: 30%;
+  }
+  .iconsFooter {
+    width: 70%;
+  }
+}
