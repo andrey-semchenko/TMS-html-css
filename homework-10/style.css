@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Raleway;
+  }
+  
+  .block {
+    width: 90%;
+    margin: 0 auto;
+    padding: 102px 0 111px;
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "lamp keyboard thunder";
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 66px;
+    column-gap: 33px;
+    text-align: center;
+  }
+  #header {
+    grid-area: header;
+    margin: 0 auto;
+  }
+  
+  #col_lamp {
+    grid-area: lamp;
+  }
+  #col_keyboard {
+    grid-area: keyboard;
+  }
+  #col_thunder {
+    grid-area: thunder;
+  }
+  .line {
+    margin: 22px auto;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+  }
+  .img {
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    border: 1px solid #ff8b38;
+    border-radius: 50%;
+    background: no-repeat center;
+  }
+  .lamp {
+    background-image: url(./img/lamp.png);
+  }
+  .keyboard {
+    background-image: url(./img/keyboard.png);
+  }
+  .thunder {
+    background-image: url(./img/thunder.png);
+  }
+  .col_header {
+    margin: 27px 0px 16px;
+  }
+  @media all and (max-width: 840px) {
+    .block {
+      grid-template-areas:
+        "header header"
+        "lamp keyboard"
+        "thunder thunder";
+      grid-template-rows: 1fr 2fr 2fr;
+      grid-template-columns: 1fr 1fr;
+    }
+    .col_thunder {
+      width: 30%;
+      max-width: 350px;
+      margin: 0 auto;
+    }
+  }
+  @media all and (max-width: 600px) {
+    .block {
+      grid-template-areas:
+        "header"
+        "lamp"
+        "keyboard"
+        "thunder";
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-columns: 1fr;
+    }
+  }
+  
